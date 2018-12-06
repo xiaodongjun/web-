@@ -1,0 +1,48 @@
+/*
+* @Author: admin
+* @Date:   2018-08-16 15:43:23
+* @Last Modified by:   admin
+* @Last Modified time: 2018-08-16 17:10:45
+*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	color: #333333;
+	font-size: 14px;
+	font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+	color: #666560;
+}
+a:hover{
+	color:#000000;
+}
+img,input{
+	border: 0 none;
+	padding: 0;
+	outline-style: none;
+	vertical-align: top;
+}
+.clearfix::after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	zoom:1;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
